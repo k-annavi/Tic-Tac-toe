@@ -1,0 +1,23 @@
+
+body{
+    background-image: url("https://images.discerningassets.com/image/upload/c_fill,h_1000,w_1000/c_fit,fl_relative,h_1.0,o_100,w_1.0/c_fill,w_4495,h_4495/v1606512343/Universe_Inside_of_You_cowjcv.jpg");
+}
+
+#parent{
+    margin: 100px auto;
+    border:1px solid black;
+    width:fit-content;
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+}
+.box{
+
+   background-color: white;
+    height: 100px;
+    width: 100px;
+    border:1px solid black;
+    font-size:73px;
+    text-align: center;
+    cursor:pointer;
+    color:black;
+}
